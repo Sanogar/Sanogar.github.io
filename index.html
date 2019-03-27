@@ -1,55 +1,122 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт</title>
+    <style>
+        div {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+&lt;!&ndash;<div class="border red">Блок
+    <p>Lorem 20</p>
+</div>
+<p>Параграф</p>
+<img src="img/307600.jpg" alt="Картинка 1"><br>
+<a href="http://youtube.com" target="_blank">Это ссылка</a>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+
+
+</ul> &ndash;&gt;
+
+&lt;!&ndash;   <ol>
+       <li>1</li>
+       <li>2</li>
+       <li>3</li>
+
+
+   </ol>&ndash;&gt;
+&lt;!&ndash; <h1>1</h1>
+ <h2>2</h2>
+ <h3>3</h3>
+ <h4>4</h4>
+ <h5>5</h5>
+ <h6>6</h6>&ndash;&gt;
+
+<div class="header">
+    <div class="logo">
+        <img src="img/307600.jpg">
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#" target="_blank">Пункт 1</a></li>
+            <li><a href="#" target="_blank">Пункт 2</a></li>
+            <li><a href="#" target="_blank">Пункт 3</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="content"></div>
+    <div class="footer"></div>
+
+
+&lt;!&ndash; target="_blank" - открыть с новой вкладки &ndash;&gt;
+&lt;!&ndash; Горячие клавиши!!!
+
+
+&ndash;&gt;
+</body>
+</html>-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Домашнее задание №1</title>
-    <style>
-        div {
-            border: 2px solid red;
-        }
-    </style>
+
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="header">
-    <br>
-    <div class="logo">
-        <img src="img/307600.jpg" alt="Logo" height="100" width="100">
-    </div>
-    <br>
+<header class="header">
+
+<div class="logo">
+    <img  class="img" src="img/307600.jpg" alt="Logo">
+</div>
+
     <div class="menu">
-        <ul><h4>
+        <ul>
             <li><a href="#" target="_blank">Пункт 1</a></li>
             <li><a href="#" target="_blank">Пункт 2</a></li>
             <li><a href="#" target="_blank">Пункт 3</a></li>
-        </ul></h4>
+        </ul>
     </div>
-    <br>
-</div>
-<br>
-<div class="content">
+
+</header>
+
+<main class="main">
     <h1>Заголовок 1</h1>
-    <p><h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-        nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-        aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
-        felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-        eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-        dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-        Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
-        rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
-        sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros
-        faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat,
-    leo eget bibendum sodales, augue velit cursus nunc,</h4></p>
-</div>
-<br>
-<div class="footer">
-    <ul><h4>
+    <p><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+    nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+    aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+    felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
+    eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+    dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+    rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
+    sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+    tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros
+    faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat,
+        leo eget bibendum sodales, augue velit</b></p>
+</main>
+
+<footer class="footer">
+    <ul>
         <li><a href="#" target="_blank">Пункт 1</a></li>
         <li><a href="#" target="_blank">Пункт 2</a></li>
         <li><a href="#" target="_blank">Пункт 3</a></li>
-    </ul></h4>
+    </ul>
     <h4>Copyright 2019</h4>
-</div>
+
+</footer>
 </body>
-</html>
+

@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img{
+    border: 2px solid red;
+    padding: 2px;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.logo{
+    display: inline-block;
+    margin: 10px;
+
+}
+.menu{
+    border: 2px solid red;
+    padding: 20px;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-right: 200px;
+}
+
+h1{
+    text-align: center;
+    margin: 40px 50px 10px 50px;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    border: 2px solid red;
+    margin: 10px 300px 100px 300px;
+}
+header{
+    border: 2px solid red;
+    margin: 30px 300px 20px 300px;
+    align-content: center;
+
+}
+main{
+    border: 2px solid red;
+    margin: 10px 300px 20px 300px;
+}
+
+p{
+    text-align: justify;
+    padding: 50px 150px 100px 150px;
+    display: block;
+}
+h4{
+    padding: 10px;
+}
+
+
+
+/*margin - внешний отступ - 4 значения, верх право низ лево
+2 значения - верх низ, право лево
+3 значения - верх, лево право, низ
+padding - внутренний отступ
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+Модель для прилягания всего к странице
+*/
