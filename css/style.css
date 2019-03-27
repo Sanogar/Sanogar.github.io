@@ -40,17 +40,17 @@ li{
 footer{
     text-align: center;
     border: 2px solid red;
-    margin: 10px 300px 100px 300px;
+    margin: 10px 100px 100px 100px;
 }
 header{
     border: 2px solid red;
-    margin: 30px 300px 20px 300px;
+    margin: 30px 100px 20px 100px;
     align-content: center;
 
 }
 main{
     border: 2px solid red;
-    margin: 10px 300px 20px 300px;
+    margin: 10px 100px 20px 100px;
 }
 
 p{
