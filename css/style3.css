@@ -106,13 +106,14 @@ h3{
 .about{
     margin-top: 50px;
     padding: 5%;
-
+    font-size: 65%;
 }
 .about1{
     border-bottom: 1px solid black;
 }
 .about2{
     margin-top: 10px;
+
 }
 .more{
     font-size: 10px;
