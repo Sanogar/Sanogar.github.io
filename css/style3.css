@@ -105,9 +105,8 @@ h3{
 }
 .about{
     margin-top: 50px;
-    padding: 50px;
-    /*display: flex;*/
-    /*position: absolute;*/
+    padding: 5%;
+
 }
 .about1{
     border-bottom: 1px solid black;
@@ -135,6 +134,7 @@ h3{
 @media screen and (max-width: 1000px) {
     .product-info {
         flex-direction: column;
+        margin-left: 5%;
     }
     .characters{
         flex-direction: column;
@@ -143,11 +143,8 @@ h3{
     .header-item2{
         left: 60%;
     }
-    .about{
-        font-size: 50%;
-        margin-left: 0%;
-    }
 }
+
 
 
 
