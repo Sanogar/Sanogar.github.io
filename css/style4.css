@@ -1,0 +1,51 @@
+h1{
+    text-shadow: 5px 5px 10px black;
+}
+.flexbox{
+    display: flex;
+    border: 1px solid red;
+    max-width: 800px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+.flexbox_item{
+    display: flex;
+    background: gray;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    transition: background 1s, border-radius 1s, transform 0.3s ;
+}
+.flexbox_item-bgblue{
+    background: blue;
+}
+.flexbox_item:hover{
+    background: red;
+    border-radius: 50%;
+    /*transition: all 1s;*/
+    /*transform: translate(20px, 20px) rotate(20deg);*/
+    transform: skew(20deg, 20deg);
+    box-shadow: 5px 5px 10px 10px black;
+}
+.properties{
+
+}
+.properties_list{
+
+}
+.properties_item{
+
+}
+@media screen and (max-width: 600px){
+ .flexbox{
+    flex-direction: column;
+}
+    .flexbox_item{
+        background: red;
+    }
+}
+/* scale - razmer
+    translate - dvigat
+    rotate - povorot*/

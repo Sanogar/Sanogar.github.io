@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    border: 1px solid red;
+    align-items: center;
+    flex-direction: column;
+}
+.flexbox-item{
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: gray;
+    margin: 20px;
+}
+.boxposition{
+
+    margin-top: 20px;
+    height: 600px;
+    border: 1px solid rgb(255, 0, 0);
+
+}
+.position-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 10px;
+    border-radius: 50%;
+}
+.red{
+    background: rgba(255, 0, 0, 0.41);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+.green{
+    background: green;
+    position: fixed;
+    right:50px ;
+    bottom: 50px;
+
+}
+.blue{
+    background:  blue;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
+.magenta{
+    background: magenta;
+}
+.gray{
+    background: gray;
+}
+/*      flex-действие с контентом, перемещение
+        spase-between- растянуть на всю ширину родительского блока
+        start- от левого края
+        around- вокруг
+        end- в правого края
+        position: relative - двигать*/

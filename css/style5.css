@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.background1{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962__340.jpg");
+}
+header {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.pageLogo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.pageLogo_img{
+    width: 10%;
+    height: 10%;
+    color: white;
+}
+.pageLogo_text {
+    font-style: italic;
+    font-size: 200%;
+    color: black;
+    padding-left: 10px;
+}
+.pageMenu{
+    display: flex;
+    color: black;
+}
+.pageRow1{
+    display: flex;
+}
+.pageRow2{
+    display: flex;
+}
+.pageMenu_item{
+    text-decoration: none;
+    color: black;
+}
+.pageMenu_item__text{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 120%;
+    display: flex;
+    padding: 20px;
+    white-space: pre;
+}
+
+
+main{
+    margin: 0 auto;
+}
+.firstBlock_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none;
+}
+.firstBlock_content__head{
+    font-style: oblique;
+    color: black;
+    padding: 30px;
+    border-bottom: 1px solid black ;
+}
+
+.firstBlock_content__text {
+    font-style: oblique;
+    font-size: 130%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    width: 50%;
+}
+.firstBlock_content__learn{
+    text-decoration: none;
+}
+
+.firstBlock_content__learn__text{
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 20px;
+}
+.firstBlock_swipe {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px auto;
+}
+
+.firstBlock_swipe__item {
+    margin: 5px;
+    border: 1px solid black;
+}
+.secondBlock{
+    display: flex;
+    background: white;
+}
+.secondBlock_image{
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10%;
+    height: 300px;
+    width: 300px;
+}
+.secondBlock_content_head{
+    text-align: center;
+    font-style: oblique;
+    color: black;
+    padding: 30px;
+}
+.secondBlock_content_text{
+    font-style: oblique;
+    font-size: 130%;
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+.secondBlock_content__learn{
+    text-decoration: none;
+}
+.secondBlock_content__learn__text{
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 10%;
+    margin: 20px;
+}
+.background2{
+    background-image: url("http://eskipaper.com/images/pretty-backgrounds-12.jpg");
+
+}
+.thirdBlock{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.thirdBlock_watch{
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 1000px;
+
+}
+/*.thirdblock_watch__text{*/
+    /*font-weight: bold;*/
+/*}*/
+.fourBlock{
+    height: 500px;
+}
+.fourBlock_head{
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourBlock_head__expertise{
+    padding-top: 40px;
+}
+.fourBlock_head_text{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.fourBlock_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.fourBlock_content__development{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.fourBlock_content__development__img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.fourBlock_content__development_head{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.fourBlock_content__development__text{
+    text-align: center;
+}
+.fourBlock_content__branding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.fourBlock_content__branding__img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.fourBlock_content__branding__head{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.fourBlock_content__branding__text{
+    text-align: center;
+}
+.fourBlock_content__mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.fourBlock_content__mobile__img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.fourBlock_content__mobile__head{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.fourBlock_content__mobile__text{
+    text-align: center;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.fourBlock_content__optimization{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.fourBlock_content__optimization__img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.fourBlock_content__optimization__head{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.fourBlock_content__optimization__text{
+    text-align: center;
+}
+.fourBlock_content__game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.fourBlock_content__game__img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.fourBlock_content__game__head{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.fourBlock_content__game__text{
+    text-align: center;
+}
+.fourBlock_content__love{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.fourBlock_content__love__img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.fourBlock_content__love__head{
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.fourBlock_content__love__text{
+    text-align: center;
+}
+.background3{
+    background-image: url("https://wallpaperbro.com/img/191434.jpg");
+}
+.fiveBlock_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fiveBlock_content{
+    display: flex;
+    justify-content: center;
+}
+.fiveBlock_content__item{
+    border: 2px solid black;
+    width: 150px;
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+}
+.fiveBlock_content__img{
+    width: 100px;
+    height: 100px;
+}
+.fiveBlock_content__item__person{
+    font-weight: bolder;
+}
+.fiveBlock_content__foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fiveBlock_content__foot_text{
+    font-weight: bolder;
+}
+.fiveBlock_content__hiring{
+    text-decoration: none;
+}
+.fiveBlock_content__hiring__text{
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 10%;
+    margin: 20px;
+}
+@media screen and (max-width: 500px){
+    .headerTitle{
+        flex-direction: column;
+    }
+    .pageMenu{
+        flex-direction: column;
+    }
+    .pageRow1{
+        display: flex;
+    }
+    .pageRow2{
+        display: flex;
+    }
+    .secondBlock{
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdBlock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .thirdBlock_watch{
+        width: 300px;
+    }
+    .row1{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column;
+    }
+}
