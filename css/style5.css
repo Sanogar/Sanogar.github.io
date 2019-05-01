@@ -254,6 +254,7 @@ main{
     }
     .first-block{
         height: auto;
+        background-image: url("../img/BG1.2.1 - phone.jpg");
     }
     .title-logo_img{
         width: 25%;
@@ -280,7 +281,13 @@ main{
     .four-block_row2{
         flex-direction: column;
     }
+    .five-block{
+        background-image: url("../img/BG3.1 - phone.jpg");
+        background-size: cover;
+
+    }
     .five-block_content{
         flex-direction: column;
+        align-items: center;
     }
 }
