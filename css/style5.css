@@ -110,6 +110,7 @@ main{
     border: 2px solid black;
     border-radius: 10%;
     margin: 20px;
+    transition: transform 1s;
 }
 
 .second-block{
@@ -238,7 +239,14 @@ main{
     text-align: center;
 }
 
-@media screen and (max-width: 500px){
+.title-menu_item:hover{
+    color: white;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px){
     html{
         width: auto;
         margin: 0;
