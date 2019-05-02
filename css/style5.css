@@ -255,6 +255,7 @@ main{
     .first-block{
         height: auto;
         background-image: url("../img/BG1.2.1 - phone.jpg");
+        background-size: cover;
     }
     .title-logo__img{
         width: 25%;
@@ -267,6 +268,9 @@ main{
     }
     .title-menu{
         flex-direction: column;
+    }
+    .title-menu__item{
+        padding: 10px;
     }
     .second-block{
         flex-direction: column;
@@ -289,13 +293,5 @@ main{
     .five-block__content{
         flex-direction: column;
         align-items: center;
-    }
-}
-@media screen and (max-width: 330px){
-    .title-menu__row1{
-        flex-direction: column;
-    }
-    .title-menu__row2{
-        flex-direction: column;
     }
 }
