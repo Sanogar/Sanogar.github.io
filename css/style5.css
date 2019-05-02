@@ -13,7 +13,7 @@ header {
     height: auto;
 
 }
-.first-block_title {
+.first-block__title {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -24,12 +24,12 @@ header {
     align-items: center;
     padding: 10px;
 }
-.title-logo_img{
+.title-logo__img{
     width: 10%;
     height: 10%;
     color: white;
 }
-.title-logo_text {
+.title-logo__text {
     font-style: italic;
     font-size: 200%;
     color: black;
@@ -39,13 +39,13 @@ header {
     display: flex;
     color: black;
 }
-.title-menu_row1{
+.title-menu__row1{
     display: flex;
 }
-.title-menu_row2{
+.title-menu__row2{
     display: flex;
 }
-.title-menu_item{
+.title-menu__item{
     text-decoration: none;
     color: black;
     font-style: oblique;
@@ -55,7 +55,7 @@ header {
     padding: 20px;
     white-space: pre;
 }
-.first-block_content {
+.first-block__content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,15 +63,15 @@ header {
     flex-direction: column;
     list-style-type: none;
 }
-.first-block_head{
+.first-block__head{
     border-bottom: 1px solid black ;
 }
-.first-block_text {
+.first-block__text {
     display: flex;
     justify-content: center;
     width: 50%;
 }
-.first-block_swipe {
+.first-block__swipe {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -118,7 +118,7 @@ main{
     background: white;
     height: auto;
 }
-.second-block_image{
+.second-block__image{
     align-items: center;
     margin-top: auto;
     margin-bottom: auto;
@@ -126,14 +126,14 @@ main{
     height: 300px;
     width: 300px;
 }
-.second-block_content{
+.second-block__content{
     display: flex;
     flex-direction: column;
 }
-.second-block_head{
+.second-block__head{
     text-align: center;
 }
-.second-block_button{
+.second-block__button{
     width: 100px;
     text-align: center;
 }
@@ -146,7 +146,7 @@ main{
     align-items: center;
     justify-content: center;
 }
-.third-block_watch{
+.third-block__watch{
     justify-content: center;
     align-items: center;
     height: 1000px;
@@ -154,22 +154,22 @@ main{
 
 }
 
-.four-block_head{
+.four-block__head{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.four-block_content{
+.four-block__content{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.four-block_row1{
+.four-block__row1{
     display: flex;
     justify-content: center;
 }
-.four-block_frame{
+.four-block__frame{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,7 +190,7 @@ main{
 .frame-text{
     text-align: center;
 }
-.four-block_row2{
+.four-block__row2{
     display: flex;
     justify-content: center;
 }
@@ -198,12 +198,12 @@ main{
     background-image: url("../img/BG3.jpg");
     height: auto;
 }
-.five-block_head{
+.five-block__head{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.five-block_content{
+.five-block__content{
     display: flex;
     justify-content: center;
 }
@@ -226,7 +226,7 @@ main{
     flex-direction: column;
     align-items: center;
 }
-.five-block_foot{
+.five-block__foot{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,12 +234,12 @@ main{
 .foot-text{
     font-weight: bolder;
 }
-.five-block_button{
+.five-block__button{
     width: 150px;
     text-align: center;
 }
 
-.title-menu_item:hover{
+.title-menu__item:hover{
     color: white;
 }
 .button:hover{
@@ -256,10 +256,10 @@ main{
         height: auto;
         background-image: url("../img/BG1.2.1 - phone.jpg");
     }
-    .title-logo_img{
+    .title-logo__img{
         width: 25%;
     }
-    .first-block_title{
+    .first-block__title{
         flex-direction: column;
     }
     .title-logo{
@@ -272,13 +272,13 @@ main{
         flex-direction: column;
         height: auto;
     }
-    .third-block_watch{
+    .third-block__watch{
         width: 300px;
     }
-    .four-block_row1{
+    .four-block__row1{
         flex-direction: column;
     }
-    .four-block_row2{
+    .four-block__row2{
         flex-direction: column;
     }
     .five-block{
@@ -286,8 +286,16 @@ main{
         background-size: cover;
 
     }
-    .five-block_content{
+    .five-block__content{
         flex-direction: column;
         align-items: center;
+    }
+}
+@media screen and (max-width: 330px){
+    .title-menu__row1{
+        flex-direction: column;
+    }
+    .title-menu__row2{
+        flex-direction: column;
     }
 }
