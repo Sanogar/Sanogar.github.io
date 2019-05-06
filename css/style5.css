@@ -112,6 +112,10 @@ main{
     margin: 20px;
     transition: transform 1s;
 }
+.link{
+    text-decoration: none;
+    color: black;
+}
 
 .second-block{
     display: flex;
@@ -129,6 +133,7 @@ main{
 .second-block__content{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .second-block__head{
     text-align: center;
@@ -159,7 +164,6 @@ main{
     flex-direction: column;
     align-items: center;
 }
-
 .four-block__content{
     display: flex;
     justify-content: center;
@@ -194,6 +198,7 @@ main{
     display: flex;
     justify-content: center;
 }
+
 .five-block{
     background-image: url("../img/BG3.jpg");
     height: auto;
@@ -239,6 +244,55 @@ main{
     text-align: center;
 }
 
+.six-block__head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.six-block__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.six-block__frame{
+    height: 200px;
+    width: 300px;
+}
+.six-block__button{
+    width: 100px;
+}
+
+.seven-block{
+    background-image: url("../img/BG4.png");
+    background-size: cover;
+    height: 1000px;
+}
+.seven-block__head{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.seven-block__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seven-block__text{
+    width: 850px;
+}
+.person-info{
+    align-items: center;
+    text-align: center;
+}
+.person-name{
+    font-weight: bolder;
+}
+.person-position{
+    align-items: center;
+}
+
 .title-menu__item:hover{
     color: white;
 }
@@ -246,53 +300,59 @@ main{
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 850px){
-    html{
+@media screen and (max-width: 850px) {
+    html {
         width: auto;
         margin: 0;
         padding: 0;
     }
-    .first-block{
+    .first-block {
         height: auto;
         background-image: url("../img/BG1.2.1 - phone.jpg");
         background-size: cover;
     }
-    .first-block__title{
+    .first-block__title {
         flex-direction: column;
     }
-    .title-logo{
+    .title-logo {
         flex-direction: column;
     }
-    .title-menu{
+    .title-menu {
         flex-direction: column;
     }
-    .title-menu__item{
+    .title-menu__item {
         padding: 15px;
     }
-    .second-block{
+    .second-block {
         flex-direction: column;
         height: auto;
         align-items: center;
     }
-    .third-block__watch{
+    .third-block__watch {
         width: 300px;
     }
-    .four-block__content{
+    .four-block__content {
         align-items: center;
     }
-    .four-block__row1{
+    .four-block__row1 {
         flex-direction: column;
     }
-    .four-block__row2{
+    .four-block__row2 {
         flex-direction: column;
     }
-    .five-block{
+    .five-block {
         background-image: url("../img/BG3.1 - phone.jpg");
         background-size: cover;
 
     }
-    .five-block__content{
+    .five-block__content {
         flex-direction: column;
+        align-items: center;
+    }
+    .six-block__frame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 }
