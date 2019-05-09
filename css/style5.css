@@ -24,12 +24,12 @@ header {
     align-items: center;
     padding: 10px;
 }
-.title-logo__img{
+.logo-img{
     width: 100px;
     height: 100px;
     color: white;
 }
-.title-logo__text {
+.logo-text {
     font-style: italic;
     font-size: 200%;
     color: black;
@@ -116,7 +116,16 @@ main{
     text-decoration: none;
     color: black;
 }
-
+.slider{
+    width: 50px;
+    height: 50px;
+}
+input::-webkit-input-placeholder {
+    color: #5a8bc0;
+}
+textarea::-webkit-input-placeholder{
+   color: #5a8bc0;
+}
 .second-block{
     display: flex;
     background: white;
@@ -267,7 +276,7 @@ main{
 .seven-block{
     background-image: url("../img/BG4.png");
     background-size: cover;
-    height: 1000px;
+    height: auto;
 }
 .seven-block__head{
     display: flex;
@@ -279,9 +288,9 @@ main{
     flex-direction: column;
     align-items: center;
 }
-.seven-block__text{
-    width: 850px;
-}
+/*.seven-block__text{*/
+    /*!*width: 850px;*!*/
+/*}*/
 .person-info{
     align-items: center;
     text-align: center;
@@ -291,6 +300,152 @@ main{
 }
 .person-position{
     align-items: center;
+}
+.person-slider{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+.slider-photo{
+    height: 80px;
+    width: 80px;
+}
+.photo-start{
+    height: 40px;
+    width: 40px;
+}
+.photo-end{
+    height: 40px;
+    width: 40px;
+}
+
+.eight-head{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 10px 0;
+ }
+.eight-content{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.eight-forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forms-frame{
+    margin: 10px;
+    height: 30px;
+    width: 800px;
+}
+.frame-textarea{
+    height: 100px;
+}
+.submit{
+    width: 100px;
+    height: 50px;
+    border: 2px solid #8589ff;
+    color: #8589ff;
+    border-radius: 10%;
+}
+.logos-frame{
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+}
+.content-logos{
+    display: flex;
+}
+.logos-column1{
+    display: flex;
+    flex-direction: column;
+}
+.logos-column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.nine-block{
+    background-image: url("../img/BG5.jpeg");
+    background-size: cover;
+    /*height: 1000px;*/
+
+}
+.nine-block__row1{
+    display: flex;
+    justify-content: space-around;
+}
+.nine-block__row2{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.footer-column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.footer-column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 40px;
+}
+.column2-content{
+    display: flex;
+    flex-direction: column;
+}
+.content-addres{
+    align-items: center;
+    display: flex;
+}
+.addres-img{
+    width: 10px;
+    height: 10px;
+}
+.content-phone{
+    align-items: center;
+    display: flex;
+}
+.phone-img{
+    width: 10px;
+    height: 10px;
+}
+.content-form{
+    display: flex;
+    align-items: center;
+}
+.content-subscribe{
+    height: 30px;
+    background-color: #cec7ff;
+    text-align: center;
+    color: black;
+}
+.subscribe-img{
+    width: 40px;
+    height: 40px;
+}
+.logos-img{
+    width: 30px;
+    height: 30px;
+}
+.footer-title{
+    display: flex;
 }
 
 .title-menu__item:hover{
@@ -353,6 +508,40 @@ main{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+    }
+    .seven-block{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .eight-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .forms-frame{
+        width: auto;
+    }
+    .nine-block__row1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nine-block__row2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-title{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1200px){
+    .eight-content{
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 }
